@@ -1,4 +1,4 @@
-package com.belatrixsf.model;
+package com.belatrixsf.jdbc.model;
 
 import java.util.Collections;
 import java.util.List;

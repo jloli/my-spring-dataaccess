@@ -1,4 +1,4 @@
-package com.belatrixsf.jdbc;
+package com.belatrixsf.jdbc.dao;
 
 import java.sql.SQLException;
 import org.springframework.dao.DataAccessException;

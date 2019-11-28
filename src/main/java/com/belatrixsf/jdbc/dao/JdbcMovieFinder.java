@@ -1,7 +1,7 @@
-package com.belatrixsf.jdbc;
+package com.belatrixsf.jdbc.dao;
 
-import com.belatrixsf.model.Movie;
-import com.belatrixsf.model.MovieFinder;
+import com.belatrixsf.jdbc.model.Movie;
+import com.belatrixsf.jdbc.model.MovieFinder;
 import java.util.List;
 import javax.sql.DataSource;
 import org.springframework.jdbc.core.JdbcTemplate;

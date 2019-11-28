@@ -1,11 +1,11 @@
-package com.belatrixsf;
+package com.belatrixsf.jdbc;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.belatrixsf.jdbc.InvalidMovieNameException;
-import com.belatrixsf.model.Movie;
-import com.belatrixsf.model.MovieLister;
-import com.belatrixsf.model.MovieManager;
+import com.belatrixsf.jdbc.dao.InvalidMovieNameException;
+import com.belatrixsf.jdbc.model.Movie;
+import com.belatrixsf.jdbc.model.MovieLister;
+import com.belatrixsf.jdbc.model.MovieManager;
 import java.util.List;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +15,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {AppConfig.class}, loader = AnnotationConfigContextLoader.class)
+@ContextConfiguration(classes = {SpringJdbcConfig.class}, loader = AnnotationConfigContextLoader.class)
 public class SpringJdbcTest {
 
   @Autowired

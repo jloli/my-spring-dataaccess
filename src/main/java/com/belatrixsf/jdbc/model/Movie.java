@@ -1,4 +1,4 @@
-package com.belatrixsf.model;
+package com.belatrixsf.jdbc.model;
 
 public class Movie {
 

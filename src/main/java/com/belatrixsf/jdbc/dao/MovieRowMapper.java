@@ -1,6 +1,6 @@
-package com.belatrixsf.jdbc;
+package com.belatrixsf.jdbc.dao;
 
-import com.belatrixsf.model.Movie;
+import com.belatrixsf.jdbc.model.Movie;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import org.springframework.jdbc.core.RowMapper;

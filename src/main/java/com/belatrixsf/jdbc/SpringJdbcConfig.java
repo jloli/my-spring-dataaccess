@@ -1,4 +1,4 @@
-package com.belatrixsf;
+package com.belatrixsf.jdbc;
 
 import javax.sql.DataSource;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +11,7 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
 @Configuration
 @ComponentScan
-public class AppConfig {
+public class SpringJdbcConfig {
 
 
   @Bean
